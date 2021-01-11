@@ -2,7 +2,8 @@
 int Display();
 int main()
 {
-   Display();
+   Display(); 
+printf("\n")
 printf("***********End Of Number***********");
 return 0;
 }
@@ -13,7 +14,7 @@ int Display()
    {
     if(fiNum%2==0)
        {
-        printf("%d ",fiNum); 
+        printf("%d  ",fiNum); 
        }
    }
 }
